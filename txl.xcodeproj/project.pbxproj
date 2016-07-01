@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEAD35C61D265BE200C86292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD35C51D265BE200C86292 /* AppDelegate.swift */; };
+		DEAD35C81D265BE200C86292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD35C71D265BE200C86292 /* ViewController.swift */; };
+		DEAD35CB1D265BE200C86292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAD35C91D265BE200C86292 /* Main.storyboard */; };
+		DEAD35CD1D265BE200C86292 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAD35CC1D265BE200C86292 /* Images.xcassets */; };
+		DEAD35D01D265BE200C86292 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAD35CE1D265BE200C86292 /* LaunchScreen.xib */; };
+		DEAD35DC1D265BE300C86292 /* txlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD35DB1D265BE300C86292 /* txlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEAD35D61D265BE300C86292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAD35B81D265BE200C86292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAD35BF1D265BE200C86292;
+			remoteInfo = txl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEAD35C01D265BE200C86292 /* txl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = txl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAD35C41D265BE200C86292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAD35C51D265BE200C86292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEAD35C71D265BE200C86292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEAD35CA1D265BE200C86292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEAD35CC1D265BE200C86292 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEAD35CF1D265BE200C86292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEAD35D51D265BE300C86292 /* txlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = txlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAD35DA1D265BE300C86292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAD35DB1D265BE300C86292 /* txlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = txlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAD35BD1D265BE200C86292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAD35D21D265BE300C86292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEAD35B71D265BE200C86292 = {
+			isa = PBXGroup;
+			children = (
+				DEAD35C21D265BE200C86292 /* txl */,
+				DEAD35D81D265BE300C86292 /* txlTests */,
+				DEAD35C11D265BE200C86292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAD35C11D265BE200C86292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD35C01D265BE200C86292 /* txl.app */,
+				DEAD35D51D265BE300C86292 /* txlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAD35C21D265BE200C86292 /* txl */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD35C51D265BE200C86292 /* AppDelegate.swift */,
+				DEAD35C71D265BE200C86292 /* ViewController.swift */,
+				DEAD35C91D265BE200C86292 /* Main.storyboard */,
+				DEAD35CC1D265BE200C86292 /* Images.xcassets */,
+				DEAD35CE1D265BE200C86292 /* LaunchScreen.xib */,
+				DEAD35C31D265BE200C86292 /* Supporting Files */,
+			);
+			path = txl;
+			sourceTree = "<group>";
+		};
+		DEAD35C31D265BE200C86292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD35C41D265BE200C86292 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEAD35D81D265BE300C86292 /* txlTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD35DB1D265BE300C86292 /* txlTests.swift */,
+				DEAD35D91D265BE300C86292 /* Supporting Files */,
+			);
+			path = txlTests;
+			sourceTree = "<group>";
+		};
+		DEAD35D91D265BE300C86292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD35DA1D265BE300C86292 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAD35BF1D265BE200C86292 /* txl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAD35DF1D265BE300C86292 /* Build configuration list for PBXNativeTarget "txl" */;
+			buildPhases = (
+				DEAD35BC1D265BE200C86292 /* Sources */,
+				DEAD35BD1D265BE200C86292 /* Frameworks */,
+				DEAD35BE1D265BE200C86292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = txl;
+			productName = txl;
+			productReference = DEAD35C01D265BE200C86292 /* txl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEAD35D41D265BE300C86292 /* txlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAD35E21D265BE300C86292 /* Build configuration list for PBXNativeTarget "txlTests" */;
+			buildPhases = (
+				DEAD35D11D265BE300C86292 /* Sources */,
+				DEAD35D21D265BE300C86292 /* Frameworks */,
+				DEAD35D31D265BE300C86292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAD35D71D265BE300C86292 /* PBXTargetDependency */,
+			);
+			name = txlTests;
+			productName = txlTests;
+			productReference = DEAD35D51D265BE300C86292 /* txlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAD35B81D265BE200C86292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "20141105052郭孝宇";
+				TargetAttributes = {
+					DEAD35BF1D265BE200C86292 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DEAD35D41D265BE300C86292 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DEAD35BF1D265BE200C86292;
+					};
+				};
+			};
+			buildConfigurationList = DEAD35BB1D265BE200C86292 /* Build configuration list for PBXProject "txl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEAD35B71D265BE200C86292;
+			productRefGroup = DEAD35C11D265BE200C86292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAD35BF1D265BE200C86292 /* txl */,
+				DEAD35D41D265BE300C86292 /* txlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEAD35BE1D265BE200C86292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAD35CB1D265BE200C86292 /* Main.storyboard in Resources */,
+				DEAD35D01D265BE200C86292 /* LaunchScreen.xib in Resources */,
+				DEAD35CD1D265BE200C86292 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAD35D31D265BE300C86292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAD35BC1D265BE200C86292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAD35C81D265BE200C86292 /* ViewController.swift in Sources */,
+				DEAD35C61D265BE200C86292 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAD35D11D265BE300C86292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAD35DC1D265BE300C86292 /* txlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEAD35D71D265BE300C86292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAD35BF1D265BE200C86292 /* txl */;
+			targetProxy = DEAD35D61D265BE300C86292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEAD35C91D265BE200C86292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAD35CA1D265BE200C86292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEAD35CE1D265BE200C86292 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAD35CF1D265BE200C86292 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEAD35DD1D265BE300C86292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEAD35DE1D265BE300C86292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAD35E01D265BE300C86292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = txl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEAD35E11D265BE300C86292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = txl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEAD35E31D265BE300C86292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = txlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/txl.app/txl";
+			};
+			name = Debug;
+		};
+		DEAD35E41D265BE300C86292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = txlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/txl.app/txl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAD35BB1D265BE200C86292 /* Build configuration list for PBXProject "txl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAD35DD1D265BE300C86292 /* Debug */,
+				DEAD35DE1D265BE300C86292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAD35DF1D265BE300C86292 /* Build configuration list for PBXNativeTarget "txl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAD35E01D265BE300C86292 /* Debug */,
+				DEAD35E11D265BE300C86292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEAD35E21D265BE300C86292 /* Build configuration list for PBXNativeTarget "txlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAD35E31D265BE300C86292 /* Debug */,
+				DEAD35E41D265BE300C86292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEAD35B81D265BE200C86292 /* Project object */;
+}
