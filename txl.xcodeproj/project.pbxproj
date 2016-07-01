@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7518631D26636E00EC9D7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7518621D26636E00EC9D7A /* LoginViewController.swift */; };
+		DE7518671D26642100EC9D7A /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7518661D26642100EC9D7A /* ContactTableViewController.swift */; };
+		DE7518691D26645800EC9D7A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7518681D26645800EC9D7A /* AddViewController.swift */; };
+		DE75186B1D26647E00EC9D7A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE75186A1D26647E00EC9D7A /* EditViewController.swift */; };
 		DEAD35C61D265BE200C86292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD35C51D265BE200C86292 /* AppDelegate.swift */; };
 		DEAD35C81D265BE200C86292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD35C71D265BE200C86292 /* ViewController.swift */; };
 		DEAD35CB1D265BE200C86292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAD35C91D265BE200C86292 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE7518621D26636E00EC9D7A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DE7518661D26642100EC9D7A /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		DE7518681D26645800EC9D7A /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		DE75186A1D26647E00EC9D7A /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		DEAD35C01D265BE200C86292 /* txl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = txl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAD35C41D265BE200C86292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEAD35C51D265BE200C86292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +85,7 @@
 		DEAD35C21D265BE200C86292 /* txl */ = {
 			isa = PBXGroup;
 			children = (
+				DEAD35E51D265C3C00C86292 /* Controller */,
 				DEAD35C51D265BE200C86292 /* AppDelegate.swift */,
 				DEAD35C71D265BE200C86292 /* ViewController.swift */,
 				DEAD35C91D265BE200C86292 /* Main.storyboard */,
@@ -110,6 +119,17 @@
 				DEAD35DA1D265BE300C86292 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEAD35E51D265C3C00C86292 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE7518621D26636E00EC9D7A /* LoginViewController.swift */,
+				DE7518661D26642100EC9D7A /* ContactTableViewController.swift */,
+				DE7518681D26645800EC9D7A /* AddViewController.swift */,
+				DE75186A1D26647E00EC9D7A /* EditViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +176,7 @@
 		DEAD35B81D265BE200C86292 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "20141105052郭孝宇";
 				TargetAttributes = {
@@ -212,6 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7518691D26645800EC9D7A /* AddViewController.swift in Sources */,
+				DE7518671D26642100EC9D7A /* ContactTableViewController.swift in Sources */,
+				DE75186B1D26647E00EC9D7A /* EditViewController.swift in Sources */,
+				DE7518631D26636E00EC9D7A /* LoginViewController.swift in Sources */,
 				DEAD35C81D265BE200C86292 /* ViewController.swift in Sources */,
 				DEAD35C61D265BE200C86292 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +436,7 @@
 				DEAD35E11D265BE300C86292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEAD35E21D265BE300C86292 /* Build configuration list for PBXNativeTarget "txlTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +445,7 @@
 				DEAD35E41D265BE300C86292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
